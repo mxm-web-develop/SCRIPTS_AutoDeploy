@@ -1,0 +1,28 @@
+{
+  "app":[
+    {
+      "name": "测试环境",
+      "giturl": "https://github.com/",
+      "schedule":"24h",
+      "server":{
+        "host":"10.64.15.17",
+        "username":"root",
+        "password":"Gientech2022!",
+        "path":"/usr/data/frontend/graphwhale",
+        "nginx-config-path":"/usr/data/frontend/graphwhale"
+      }
+  
+    },
+    {
+      "name": "开发环境",
+      "giturl": "https://github.com/",
+      "schedule":"24h",
+      "server":{
+        "host":"10.64.15.18",
+        "username":"root",
+        "password":"Gientech2022!",
+        "path":"/usr/data/frontend/graphwhale"
+      }
+    }
+  ]
+}
