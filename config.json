@@ -2,26 +2,15 @@
   "app":[
     {
       "name": "测试环境",
-      "giturl": "https://github.com/",
-      "schedule":"24h",
+      "giturl": "git@github.com:mxm-web-develop/test.git",
+      "schedule":"0 0,12 * * *",
+      "branche":"master",
       "server":{
-        "host":"10.64.15.17",
+        "host":"47.114.177.31",
         "username":"root",
-        "password":"Gientech2022!",
-        "path":"/usr/data/frontend/graphwhale",
-        "nginx-config-path":"/usr/data/frontend/graphwhale"
-      }
-  
-    },
-    {
-      "name": "开发环境",
-      "giturl": "https://github.com/",
-      "schedule":"24h",
-      "server":{
-        "host":"10.64.15.18",
-        "username":"root",
-        "password":"Gientech2022!",
-        "path":"/usr/data/frontend/graphwhale"
+        "password":"Jinxin8526",
+        "path":"/root/myNginx/html",
+        "nginx-config-path":"/root/myNginx/conf"
       }
     }
   ]
